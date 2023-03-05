@@ -1,4 +1,23 @@
+# Root Query is always required
 type Query{
     greeting: String
     greetingWithArgument(name : String): String
+    recentPosts: [Post]!
+}
+
+# ! means non nullable
+
+type Post {
+    id: ID!
+    title: String!
+    text: String!
+    category: String
+    author: Author!
+}
+
+type Author {
+    id: ID!
+    name: String!
+    thumbnail: String
+    posts: [Post]!
 }
