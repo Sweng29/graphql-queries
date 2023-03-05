@@ -33,3 +33,7 @@ type Comment {
     shareUrl: String
     post: Post
 }
+
+type Mutation{
+    addPost(title: String, text: String, category: String): Post
+}
