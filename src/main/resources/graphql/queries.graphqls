@@ -13,6 +13,7 @@ type Post {
     text: String!
     category: String
     author: Author!
+    comments: [Comment]
 }
 
 type Author {
@@ -20,4 +21,15 @@ type Author {
     name: String!
     thumbnail: String
     posts: [Post]!
+}
+
+# for batch operations to handle n+1 case calls
+
+type Comment {
+    id: ID,
+    text: String
+    likes: ID
+    dislikes: ID
+    shareUrl: String
+    post: Post
 }
