@@ -15,3 +15,12 @@ GraphQL Example
 
 <img width="1610" alt="Screenshot 2023-03-05 at 10 53 49 PM" src="https://user-images.githubusercontent.com/39361182/222980432-065ee5dc-b1db-4fa0-9a09-cb567a701cd3.png">
 
+# @BatchMapping - When you want to handle N+1 case, in this case a post can have thousands of comments to reduce network call we'll use batch mapping
+
+<img width="1610" alt="Screenshot 2023-03-05 at 11 52 42 PM" src="https://user-images.githubusercontent.com/39361182/222982700-b39bdb19-3d6b-4a08-a6b8-866e559631ab.png">
+
+<img width="1610" alt="Screenshot 2023-03-05 at 11 53 11 PM" src="https://user-images.githubusercontent.com/39361182/222982704-8d35b332-4037-47ab-b051-1e2f4803e064.png">
+
+<img width="1610" alt="Screenshot 2023-03-05 at 11 53 22 PM" src="https://user-images.githubusercontent.com/39361182/222982714-c073ec2c-455c-4331-959a-7bd1efbea9b3.png">
+
+<img width="1610" alt="Screenshot 2023-03-05 at 11 53 35 PM" src="https://user-images.githubusercontent.com/39361182/222982723-4fcd6718-b431-4199-85dd-b62b859f09a2.png">
